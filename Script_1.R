@@ -55,3 +55,4 @@ sd(conjunto$Vecinos)
 
 mean(conjunto$Diametro)
 sd(conjunto$Diametro)
+
