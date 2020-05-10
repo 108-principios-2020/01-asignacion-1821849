@@ -98,5 +98,3 @@ sd(Vecinos_3$Vecinos)
 sd(Vecinos_4$Vecinos)
 sd(DBH_media$Diametro)
 sd(DBH_16$Diametro)
-
-
