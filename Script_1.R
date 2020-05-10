@@ -63,12 +63,18 @@ hist(Douglasia_verde$Diametro, main = "Diametro especie F", col = "green",
 par(mfrow=c(1,1))
 
 par(mfrow=c(2,2))
-hist(H.media$Altura, main="Alturas iguales o menores a la media", col = "yellow", xlab = "Alturas", ylab = "Frecuencia")
-hist(H.16$Altura, main="Alturas mayores a 16", col = "pink", xlab = "Alturas", ylab = "Frecuencia")
-hist(Vecinos_3$Vecinos, main = "Vecinos iguales o menores a 3", col = "blue", xlab = "Vecinos", ylab = "Frecuencia")
-hist(Vecinos_4$Vecinos, main= "Vecinos mayores a 4", col= "orange", xlab = "Vecinos", ylab = "Frecuencia")
-hist(DBH_media$Diametro, main= "Diametros menores a la media", col= "green", xlab = "Diametros", ylab = "Frecuencia")
-hist(DBH_16$Diametro, main= "Diametros mayores a 16", col= "red", xlab = "Diametros", ylab = "Frecuencia")
+hist(H.media$Altura, main="Alturas iguales o menores a la media", 
+     col = "yellow", xlab = "Alturas", ylab = "Frecuencia")
+hist(H.16$Altura, main="Alturas mayores a 16", col = "pink", 
+     xlab = "Alturas", ylab = "Frecuencia")
+hist(Vecinos_3$Vecinos, main = "Vecinos iguales o menores a 3", 
+     col = "blue", xlab = "Vecinos", ylab = "Frecuencia")
+hist(Vecinos_4$Vecinos, main= "Vecinos mayores a 4", col= "orange", 
+     xlab = "Vecinos", ylab = "Frecuencia")
+hist(DBH_media$Diametro, main= "Diametros menores a la media", 
+     col= "green", xlab = "Diametros", ylab = "Frecuencia")
+hist(DBH_16$Diametro, main= "Diametros mayores a 16", col= "red", 
+     xlab = "Diametros", ylab = "Frecuencia")
 par(mfrow=c(1,1))
 
 # Basicos -----------------------------------------------------------------
