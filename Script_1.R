@@ -1,3 +1,7 @@
+# Daniela Victoria Cansino Rosales
+# Matrícula: 1821849
+# Fecha: 06.02.2020
+
 library(repmis)
 conjunto <- source_data("https://www.dropbox.com/s/hmsf07bbayxv6m3/cuadro1.csv?dl=1")
 
